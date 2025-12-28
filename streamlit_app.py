@@ -824,19 +824,44 @@ with tab2:
             st.info("Check out the 'Technology Stack' tab for details!")
 
     # Technology Stack Overview Image (Preserved)
-    st.markdown("---")
-    st.markdown("### 🛠️ Technology Stack Overview")
-    
-    try:
-        tech_stack_image = Image.open(r"C:\Users\rattu\.gemini\antigravity\brain\eae0aefd-b382-47bb-bde9-be9f4dfff280\uploaded_image_1766904744181.png")
-        st.image(tech_stack_image, caption="Complete Technology Stack - Flipkart Product Recommender System", use_container_width=True)
-    except Exception as e:
-        st.warning(f"Technology stack overview image not available.")
+    # Tech stack overview moved to Tab 3 for better organization
 
 
 # TAB 3: Tech Stack
 with tab3:
     st.header("🔧 Technology Stack")
+
+    # High-Level Tech Stack Cards (Replica of the user's requested visual)
+    st.markdown("""
+    <div style='display: flex; gap: 20px; justify-content: center; margin-bottom: 30px; flex-wrap: wrap;'>
+        
+        <!-- Backend Card -->
+        <div style='background: linear-gradient(135deg, rgba(40, 116, 240, 0.2) 0%, rgba(26, 31, 46, 0.8) 100%); 
+                    padding: 20px; border-radius: 15px; border: 2px solid #2874f0; width: 30%; min-width: 250px; text-align: center; box-shadow: 0 4px 15px rgba(40, 116, 240, 0.3);'>
+            <h2 style='color: #2874f0 !important; margin-bottom: 15px; text-shadow: none;'>Backend</h2>
+            <div style='background: rgba(40, 116, 240, 0.1); padding: 8px; border-radius: 8px; margin-bottom: 8px; color: #a6c1ee; font-weight: 600;'>Flask API</div>
+            <div style='background: rgba(40, 116, 240, 0.1); padding: 8px; border-radius: 8px; color: #a6c1ee; font-weight: 600;'>LangChain</div>
+        </div>
+
+        <!-- AI Layer Card -->
+        <div style='background: linear-gradient(135deg, rgba(46, 204, 113, 0.2) 0%, rgba(26, 31, 46, 0.8) 100%); 
+                    padding: 20px; border-radius: 15px; border: 2px solid #2ecc71; width: 30%; min-width: 250px; text-align: center; box-shadow: 0 4px 15px rgba(46, 204, 113, 0.3);'>
+            <h2 style='color: #2ecc71 !important; margin-bottom: 15px; text-shadow: none;'>AI Layer</h2>
+            <div style='background: rgba(46, 204, 113, 0.1); padding: 8px; border-radius: 8px; margin-bottom: 8px; color: #a8e6cf; font-weight: 600;'>Groq LLM</div>
+            <div style='background: rgba(46, 204, 113, 0.1); padding: 8px; border-radius: 8px; margin-bottom: 8px; color: #a8e6cf; font-weight: 600;'>HuggingFace</div>
+            <div style='background: rgba(46, 204, 113, 0.1); padding: 8px; border-radius: 8px; color: #a8e6cf; font-weight: 600;'>Embeddings</div>
+        </div>
+
+        <!-- Database Card -->
+        <div style='background: linear-gradient(135deg, rgba(255, 159, 67, 0.2) 0%, rgba(26, 31, 46, 0.8) 100%); 
+                    padding: 20px; border-radius: 15px; border: 2px solid #f39c12; width: 30%; min-width: 250px; text-align: center; box-shadow: 0 4px 15px rgba(255, 159, 67, 0.3);'>
+            <h2 style='color: #f39c12 !important; margin-bottom: 15px; text-shadow: none;'>Database</h2>
+            <div style='background: rgba(255, 159, 67, 0.1); padding: 8px; border-radius: 8px; margin-bottom: 8px; color: #fad390; font-weight: 600;'>AstraDB</div>
+            <div style='background: rgba(255, 159, 67, 0.1); padding: 8px; border-radius: 8px; color: #fad390; font-weight: 600;'>Vector Store</div>
+        </div>
+        
+    </div>
+    """, unsafe_allow_html=True)
     
     # Original categorized tech stack
     st.markdown("### 📚 Technologies by Category")
