@@ -1128,10 +1128,18 @@ with tab4:
     </div>
     """, unsafe_allow_html=True)
     try:
-        workflow_image = Image.open("images/workflow_diagram.png")
-        st.image(workflow_image, caption="System Workflow Diagram", use_container_width=True)
+        # Construct absolute path to images directory
+        current_dir = os.path.dirname(os.path.abspath(__file__))
+        workflow_path = os.path.join(current_dir, "images", "workflow_diagram.png")
+        
+        if os.path.exists(workflow_path):
+            workflow_image = Image.open(workflow_path)
+            st.image(workflow_image, caption="System Workflow Diagram", use_container_width=True)
+        else:
+            st.warning(f"Workflow image not found at: {workflow_path}")
+            
     except Exception as e:
-        st.warning(f"Workflow diagram image not found: {str(e)}")
+        st.warning(f"Error loading workflow diagram: {str(e)}")
 
     st.markdown("<br>", unsafe_allow_html=True)
 
@@ -1142,11 +1150,19 @@ with tab4:
     </div>
     """, unsafe_allow_html=True)
     try:
-        monitoring_image = Image.open("images/monitoring_diagram.png")
-        st.image(monitoring_image, caption="K8s Cluster Monitoring", use_container_width=True)
-        st.info("**Flow**: App → Prometheus → Grafana Dashboards")
+        # Construct absolute path to images directory
+        current_dir = os.path.dirname(os.path.abspath(__file__))
+        monitoring_path = os.path.join(current_dir, "images", "monitoring_diagram.png")
+        
+        if os.path.exists(monitoring_path):
+            monitoring_image = Image.open(monitoring_path)
+            st.image(monitoring_image, caption="K8s Cluster Monitoring", use_container_width=True)
+            st.info("**Flow**: App → Prometheus → Grafana Dashboards")
+        else:
+            st.warning(f"Monitoring image not found at: {monitoring_path}")
+            
     except Exception as e:
-        st.warning(f"Monitoring diagram not available: {str(e)}")
+        st.warning(f"Error loading monitoring diagram: {str(e)}")
 
     st.markdown("---")
     
