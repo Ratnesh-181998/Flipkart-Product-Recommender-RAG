@@ -26,25 +26,33 @@ This project demonstrates a complete **End-to-End LLMOps Pipeline**, including d
 
 ---
 
-## 🏗️ Architecture & Tech Stack
+## 🏗️ Technical Architecture & LLMOps Stack
 
-The system follows a modern **Microservices Architecture**:
+This project is built on a robust, cloud-native **Microservices Architecture**, designed for scalability and real-time inference.
 
-### 🧠 Core AI Stack
-- **LLM:** Groq (Llama 3.1-8B-Instant) - *Ultra-low latency inference*
-- **Embeddings:** HuggingFace (`BAAI/bge-base-en-v1.5`)
-- **Vector Store:** Datastax AstraDB (Serverless Cassandra)
-- **Orchestration:** LangChain
+### 🤖 Core RAG & AI Layer
+| Component | Technology | Description |
+| :--- | :--- | :--- |
+| **LLM Inference** | **Groq** (Llama 3.1-8B) | Ultra-low latency inference engine (LPU) for instant generation. |
+| **Embeddings** | **HuggingFace** | `BAAI/bge-base-en-v1.5` for high-fidelity vector representation. |
+| **Vector Database** | **AstraDB** | Serverless Cassandra-based vector store for scalable semantic retrieval. |
+| **Orchestration** | **LangChain** | Manages prompt templates, chains, and retrieval logic. |
 
-### 💻 Application Layer
-- **Frontend:** Streamlit (Python) / HTML / CSS
-- **Backend:** Flask (Python REST API)
-- **Monitoring:** Prometheus (Metrics) & Grafana (Dashboards)
+### ⚙️ Backend & Application Layer
+| Component | Technology | Description |
+| :--- | :--- | :--- |
+| **Backend API** | **Flask** | Lightweight REST API to expose RAG endpoints. |
+| **Frontend UI** | **Streamlit** | Interactive, Python-based web interface for chat and dashboards. |
+| **Data Processing** | **Pandas** | Data manipulation and cleaning before ingestion. |
 
-### 🐳 DevOps & Deployment
-- **Containerization:** Docker
-- **Orchestration:** Kubernetes (Minikube on GCP VM)
-- **CI/CD:** GitHub Actions (Planned)
+### 🐳 Deployment & LLMOps (AIOps)
+| Component | Technology | Description |
+| :--- | :--- | :--- |
+| **Containerization** | **Docker** | Fully containerized application for consistent environments. |
+| **Orchestration** | **Kubernetes (K8s)** | **Minikube** cluster setup for managing replicas and scaling. |
+| **Observability** | **Prometheus** | Scrapes real-time metrics (latency, request count, error rates). |
+| **Visualization** | **Grafana** | Comprehensive dashboards for system health monitoring. |
+| **Infra as Code** | **YAML** | Declarative configuration for K8s deployments and services. |
 
 ---
 
