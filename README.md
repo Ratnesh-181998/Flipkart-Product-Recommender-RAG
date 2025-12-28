@@ -80,7 +80,7 @@ graph TD
 ## 🌐🎬 Live Demo
 🚀 **Try it now:**
 - **Streamlit Profile** - https://share.streamlit.io/user/ratnesh-181998
-- **Project Demo** - https://tesla-autonomous-car-driving-vision-yolov5-object-detection-an.streamlit.app/
+- **Project Demo** - https://flipkart-appuct-recommender-rag-qpisu9s2oo4dyjr3fpp4yf.streamlit.app/
 
 ---
 
@@ -246,7 +246,7 @@ Follow these steps to run the project locally.
 ---
 ### Project Links
 
-- 🌐 **Live Demo**: [Streamlit App](https://agentic-ai-trip-planner-crewai-ykagvec2ng6raotrdaw6sp.streamlit.app/)
+- 🌐 **Live Demo**: [Streamlit App](https://flipkart-appuct-recommender-rag-qpisu9s2oo4dyjr3fpp4yf.streamlit.app/)
 - 📖 **Documentation**: [GitHub Wiki](https://github.com/Ratnesh-181998/Flipkart-Product-Recommender-RAG/wiki)
 - 🐛 **Issue Tracker**: [GitHub Issues](https://github.com/Ratnesh-181998/Flipkart-Product-Recommender-RAG/issues)
 - 💬 **Discussions**: [GitHub Discussions](https://github.com/Ratnesh-181998/Flipkart-Product-Recommender-RAG/discussions)
