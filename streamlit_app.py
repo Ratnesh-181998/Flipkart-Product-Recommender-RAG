@@ -1128,10 +1128,10 @@ with tab4:
     </div>
     """, unsafe_allow_html=True)
     try:
-        workflow_image = Image.open(r"C:\Users\rattu\Downloads\2_FLIPKART PRODUCT RECOMMENDER\Local Run\Flipkart+product+recommender+Workflow.png")
+        workflow_image = Image.open("images/workflow_diagram.png")
         st.image(workflow_image, caption="System Workflow Diagram", use_container_width=True)
     except Exception as e:
-        st.warning("Workflow diagram image not found.")
+        st.warning(f"Workflow diagram image not found: {str(e)}")
 
     st.markdown("<br>", unsafe_allow_html=True)
 
@@ -1142,11 +1142,11 @@ with tab4:
     </div>
     """, unsafe_allow_html=True)
     try:
-        monitoring_image = Image.open(r"C:\Users\rattu\.gemini\antigravity\brain\eae0aefd-b382-47bb-bde9-be9f4dfff280\uploaded_image_1766904924772.png")
+        monitoring_image = Image.open("images/monitoring_diagram.png")
         st.image(monitoring_image, caption="K8s Cluster Monitoring", use_container_width=True)
         st.info("**Flow**: App → Prometheus → Grafana Dashboards")
     except Exception as e:
-        st.warning("Monitoring diagram not available.")
+        st.warning(f"Monitoring diagram not available: {str(e)}")
 
     st.markdown("---")
     
