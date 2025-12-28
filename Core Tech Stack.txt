@@ -1,0 +1,14 @@
+#💻 Core Tech Stack :
+
+Groq: Ultra-low latency LLM Inference Engine (LPU).
+HuggingFace: State-of-the-art Embedding Models.
+LangChain: Orchestration framework for RAG workflows.
+AstraDB: Serverless, high-performance Vector Database.
+Flask: Lightweight Backend API.
+Streamlit: Interactive Frontend UI.
+Docker: Containerization for consistent environments.
+Kubernetes (Minikube): Container Orchestration & Scaling.
+GCP VM: Cloud Infrastructure host.
+Prometheus: Metrics Collection & Monitoring.
+Grafana: Data Visualization & Dashboards.
+GitHub: Version Control & CI/CD.
