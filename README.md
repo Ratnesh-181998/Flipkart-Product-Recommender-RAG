@@ -152,23 +152,54 @@ graph TD;
 The heart of the application.
 - **ChatGPT-Style Interface**: Familiar and intuitive chat experience.
 - **Dynamic Product Cards**: AI auto-generates structured product cards with images, prices, and links based on the conversation.
+<img width="1913" height="833" alt="image" src="https://github.com/user-attachments/assets/753004b2-c2fd-4c03-b9ac-f4f1e23a5c15" />
+<img width="1903" height="827" alt="image" src="https://github.com/user-attachments/assets/4a1fd530-7c79-473d-a97e-e530962cc290" />
+<img width="1896" height="812" alt="image" src="https://github.com/user-attachments/assets/d2126e6d-b39e-412d-b753-bebdbd8d97c7" />
+<img width="1909" height="837" alt="image" src="https://github.com/user-attachments/assets/6e0fe089-c674-4258-96d1-fe7a2adeeef6" />
+<img width="1898" height="834" alt="image" src="https://github.com/user-attachments/assets/20849c60-6884-473a-9fca-af275037f687" />
+<img width="1865" height="815" alt="image" src="https://github.com/user-attachments/assets/aa270177-b811-4b88-b4e5-7cdaf1e2af80" />
+<img width="1897" height="793" alt="image" src="https://github.com/user-attachments/assets/28954617-902a-4be6-a79f-401d9798b291" />
+
 
 ### 2️⃣ 📖 About Project Tab
 Context and Education.
 - Explains the **Problem Statement** (limitations of keyword search) and the **GenAI Solution**.
+<img width="1894" height="797" alt="image" src="https://github.com/user-attachments/assets/225eb011-96cd-4004-b1cc-8d857bf2c886" />
+<img width="1863" height="791" alt="image" src="https://github.com/user-attachments/assets/46b42be4-d786-4dba-8dd1-61cf926a4160" />
+<img width="1590" height="747" alt="image" src="https://github.com/user-attachments/assets/4bc5d253-87de-44cd-be61-915b57e84695" />
+<img width="1576" height="751" alt="image" src="https://github.com/user-attachments/assets/1bde9437-642e-4920-a3c8-4ffbbd779127" />
+<img width="1814" height="760" alt="image" src="https://github.com/user-attachments/assets/16c3b413-626f-4b6c-a5b4-8fabd450e059" />
+<img width="1575" height="740" alt="image" src="https://github.com/user-attachments/assets/eb063480-b865-4cb5-bc81-691fe32532a1" />
+<img width="1581" height="758" alt="image" src="https://github.com/user-attachments/assets/75275ceb-75b1-4595-89e5-a6b37e27010e" />
 
 ### 3️⃣ 🔧 Tech Stack Tab
 Transparency.
 - Visually displays the technologies used, building trust in the system's robustness.
+<img width="1882" height="813" alt="image" src="https://github.com/user-attachments/assets/d3c89d56-bb46-4fb4-a9ed-4d315ffecf42" />
+<img width="1892" height="802" alt="image" src="https://github.com/user-attachments/assets/db6f6f48-bced-4473-93e2-072e4be05705" />
+<img width="1865" height="787" alt="image" src="https://github.com/user-attachments/assets/b54bbbe0-31dc-46d4-ba81-441ce5de199d" />
+<img width="1897" height="778" alt="image" src="https://github.com/user-attachments/assets/26cfee24-2289-4e49-9492-2bb86ec8d545" />
+<img width="1891" height="765" alt="image" src="https://github.com/user-attachments/assets/d44bd035-7f06-4e84-8dc2-64013301e9a9" />
 
 ### 4️⃣ 🏗️ Architecture Tab
 System Design.
 - Interactive diagrams allowing users to explore the data flow and infrastructure.
+<img width="1877" height="816" alt="image" src="https://github.com/user-attachments/assets/244f4cf0-2592-41c2-9a0a-ec0f91f0e30a" />
+<img width="1586" height="747" alt="image" src="https://github.com/user-attachments/assets/a87de07f-93aa-4d62-bc0b-b82c4af22ca1" />
+<img width="1591" height="767" alt="image" src="https://github.com/user-attachments/assets/f3a2667b-97a7-4122-a589-b0826845682c" />
+<img width="1575" height="785" alt="image" src="https://github.com/user-attachments/assets/b7e6d756-2e2d-4bc3-930a-d8dfca2b7813" />
+<img width="1550" height="755" alt="image" src="https://github.com/user-attachments/assets/479b06ee-f052-417d-9595-bdf7a10e4bd3" />
+<img width="1563" height="759" alt="image" src="https://github.com/user-attachments/assets/df6bf670-9cdf-493c-b29c-3e0f9c0a48ae" />
+<img width="1606" height="762" alt="image" src="https://github.com/user-attachments/assets/5e76dc29-86f1-4de7-adc2-a132f35aea4f" />
 
 ### 5️⃣ 📋 System Logs Tab
 Observability for Developers.
 - Real-time stream of application logs (Info, Warning, Error).
 - Health check status for API, Database, and LLM connections.
+<img width="1798" height="762" alt="image" src="https://github.com/user-attachments/assets/4bc58423-79fd-4dc9-b5ea-c8c6a580da92" />
+<img width="1478" height="714" alt="image" src="https://github.com/user-attachments/assets/73d20ed0-1814-498b-b5ad-31066476ef4c" />
+<img width="1526" height="647" alt="image" src="https://github.com/user-attachments/assets/68abf806-998f-4b51-a397-8b4a5673f909" />
+<img width="1529" height="654" alt="image" src="https://github.com/user-attachments/assets/bcdb98f1-66cb-40ca-bfe2-ab5f40675ad5" />
 
 ---
 
