@@ -221,7 +221,7 @@ Flipkart-Product-Recommender-RAG/
 
 | **Tech Stack Visualization** | **System Logs Dashboard** |
 |:----------------------------:|:-------------------------:|
-| ![Tech Stack](workflow.png) | ![Logs](https://via.placeholder.com/400x200?text=System+Logs+Tab) |
+| ![Tech Stack](workflow_diagram.png) | ![Monitoring](monitoring_diagram.png) |
 | *Technology Stack Workflow* | *Live Health Monitoring* |
 
 ---
