@@ -35,7 +35,7 @@
 - **Clone your GitHub repo**
 
   ```bash
-  git clone https://github.com/data-guru0/TESTING-9.git
+  git clone https://github.com/your/TESTING-9.git
   ls
   cd TESTING-9
   ls  # You should see the contents of your project
@@ -140,7 +140,7 @@ git push origin main
 ```
 
 - When prompted:
-  - **Username**: `data-guru0`
+  - **Username**: `data-your`
   - **Password**: GitHub token (paste, it's invisible)
 
 ---
